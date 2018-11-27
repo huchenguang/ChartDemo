@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="11dp">
+
+        <com.coorchice.library.SuperTextView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:stv_corner="8dp"
+            app:stv_solid="#ff5001" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="销售总额"
+            android:textColor="#595959"
+            android:textSize="13sp" />
+
+        <com.coorchice.library.SuperTextView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:stv_corner="8dp"
+            app:stv_solid="#26c89c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="销售数量"
+            android:textColor="#595959"
+            android:textSize="13sp" />
+
+        <com.coorchice.library.SuperTextView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:stv_corner="8dp"
+            app:stv_solid="#0f86ff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退货总额"
+            android:textColor="#595959"
+            android:textSize="13sp" />
+
+        <com.coorchice.library.SuperTextView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:stv_corner="8dp"
+            app:stv_solid="#61d1e5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="退货数量"
+            android:textColor="#595959"
+            android:textSize="13sp" />
+
+
+    </LinearLayout>
+
+    <com.weisheng.chartdemo.widget.MySumAllLayout
+        android:id="@+id/ll_sum"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:background="#ffffff">
+
+        <com.coorchice.library.SuperTextView
+            android:id="@+id/tv_1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="你好呀1"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            app:stv_corner="60dp"
+            app:stv_solid="#ff5001" />
+
+        <com.coorchice.library.SuperTextView
+            android:id="@+id/tv_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-14dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/tv_1"
+            android:gravity="center"
+            android:text="你好呀2"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            app:stv_corner="25dp"
+            app:stv_solid="#26c89c" />
+
+        <com.coorchice.library.SuperTextView
+            android:id="@+id/tv_3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-13dp"
+            android:layout_marginTop="43dp"
+            android:layout_toRightOf="@id/tv_1"
+            android:gravity="center"
+            android:text="你好呀3"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            app:stv_corner="60dp"
+            app:stv_solid="#0f86ff" />
+
+        <com.coorchice.library.SuperTextView
+            android:id="@+id/tv_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="72dp"
+            android:layout_toRightOf="@id/tv_3"
+            android:gravity="center"
+            android:text="你好呀4"
+            android:textColor="#ffffff"
+            android:textSize="11sp"
+            app:stv_corner="25dp"
+            app:stv_solid="#61d1e5" />
+    </com.weisheng.chartdemo.widget.MySumAllLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:background="#f0f0f0" />
+</LinearLayout>
